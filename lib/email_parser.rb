@@ -15,7 +15,7 @@ class EmailAddressParser
     #split email at , or whitespace 
     #return array
     @email.split(/[,\s]+|[,\s]+g/)
-    
+    emails = email.unique
     end
 
 end
