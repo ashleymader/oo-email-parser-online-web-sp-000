@@ -3,9 +3,9 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-class EmailAddressParser(parser)
+class EmailAddressParser
 
-  def parse
+  def parse(parser)
     array = email_addresses.split(" " || ",")
     print array
   end
