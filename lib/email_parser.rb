@@ -15,8 +15,8 @@ class EmailAddressParser
     #split email at , or whitespace 
     #return array
     @email.split(/,\s/)
-    if @email.include? email 
-      return email
+    email.each do |unique|
+      
     end
   end
 end
