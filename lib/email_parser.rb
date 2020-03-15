@@ -15,6 +15,8 @@ class EmailAddressParser
     #split email at , or whitespace 
     #return array
     @email.split(/,\s/)
-    if @email.include?
+    if @email.include? email 
+      return email
+    end
   end
 end
