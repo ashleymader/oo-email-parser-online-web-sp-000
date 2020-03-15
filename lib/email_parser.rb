@@ -15,7 +15,8 @@ class EmailAddressParser
     #split email at , or whitespace 
     #return array
     @email.split(/,\s/)
-    @email.map  {|unique| 
+    @email.map  {|unique| unique.unique?}
+    end
       
     end
   end
