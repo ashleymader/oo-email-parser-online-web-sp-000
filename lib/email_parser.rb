@@ -4,9 +4,9 @@
 # or whitespace (' ').
 
 class EmailParser
-
+  attr_accessor :email
   def parse
-    array = @EmailParser.split(" " || ",")
+    array = email.split(" " || ",")
     print array
   end
 end
