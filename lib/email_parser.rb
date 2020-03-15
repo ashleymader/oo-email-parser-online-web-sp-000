@@ -14,7 +14,7 @@ class EmailAddressParser
     #if email == email in array, ignore the email
     #split email at , or whitespace 
     #return array
-    @email.split(/[,\s]+|[,\s]+g/)emails = emails.delete_if {|unique| unique == @email }
+    @email.split(/[,\s]+|[,\s]+g/).delete_if {|unique| unique == @email }
     
     end
 
