@@ -4,8 +4,8 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  attr_accessor :email
-  
+
   def parse 
+    #take in email_addresses array and separate each individual email (separated by , or "(whitespace)" and encapsulate them and return an array with each email in it's own " ")
   end
 end
