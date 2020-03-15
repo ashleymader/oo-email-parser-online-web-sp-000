@@ -17,5 +17,5 @@ class EmailAddressParser
     @email.split(/,\s/)
     @email.map  {|unique| unique.unique?}
     end
-  end
+
 end
