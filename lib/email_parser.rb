@@ -15,4 +15,5 @@ class EmailAddressParser
     #split email at , or whitespace 
     #return array
     @email.split(/,|-/)
+  end
 end
