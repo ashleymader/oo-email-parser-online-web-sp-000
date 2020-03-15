@@ -7,6 +7,6 @@ class EmailAddressParser
 
   def parse 
     #take in email_addresses array and separate each individual email (separated by , or "(whitespace)" and encapsulate them and return an array with each email in it's own " ")
-    parse.email_addresses
+    email_addresses = input.split(" " || ",")
   end
 end
