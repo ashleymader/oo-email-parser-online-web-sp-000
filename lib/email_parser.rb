@@ -11,6 +11,8 @@ class EmailAddressParser
   end
   
   def parse 
-    
+    #if email == email in array, ignore the email
+    #split email at , or whitespace 
+    #return array
 
 end
