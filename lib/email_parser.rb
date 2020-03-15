@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    array = email.split(" " || ",")
+    array = @email.split(" " || ",")
     print array
   end
 end
